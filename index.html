@@ -12,22 +12,35 @@
       rel="stylesheet"
     />
     <!-- Google fonts end-->
+    <!-- Fontawesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Custom stylesheet -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Header section start -->
-    <header>
+    <header class="header-section">
       <div class="container">
         <div class="header-row">
           <div class="logo">
-            <span>LOGO</span>
+            <span><a href="#" class="header-logo">LOGO</a></span>
           </div>
           <nav class="navbar">
             <ul>
               <li><a href="#">Home</a></li>
               <li><a href="#">About Us</a></li>
               <li><a href="#">Products</a></li>
-              <li><a href="#">Services</a></li>
+              <li>
+                <a href="#"
+                  >Services <span><i class="fa-solid fa-angle-down"></i></span
+                ></a>
+              </li>
               <li><a href="#">Contact Us</a></li>
             </ul>
           </nav>

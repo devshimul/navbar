@@ -4,17 +4,45 @@
   box-sizing: border-box;
   font-family: "Fira Code", monospace;
 }
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
 /* Header section start */
+.header-section {
+  background-color: #648db3;
+  padding: 16px 0;
+}
 .header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .logo {
 }
 .navbar {
 }
 .navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 44px;
 }
 .navbar ul li {
 }
 .navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+  display: block;
+}
+.navbar ul li a:hover {
+  transform: translateX(6px);
+}
+.header-logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 4px;
 }
 /* Header section end */
